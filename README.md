@@ -8,7 +8,7 @@
 
 ```tree
 .
-├── .vscode // vscode setting
+├── .vscode // vscode setting，优化视觉
 ├── deploy // 上传组件
 │   ├── index // 上传方法
 │   └── products // 配置项
