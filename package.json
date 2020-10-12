@@ -9,7 +9,8 @@
     "build:prod": "vue-cli-service build --mode production",
     "deploy:dev": "npm run build:dev && cross-env NODE_ENV=development node ./deploy",
     "deploy:prod": "npm run build:prod && cross-env NODE_ENV=production node ./deploy",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deletePakage": "rimraf node_modules"
   },
   "dependencies": {
     "amfe-flexible": "^2.2.1",
